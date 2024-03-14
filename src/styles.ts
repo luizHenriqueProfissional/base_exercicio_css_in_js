@@ -5,8 +5,9 @@ const EstiloGlobal = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Lato, sans-serif;
     list-style: none;
+    font-family: 'Lato', sans-serif;
+
   }
 
   body {
@@ -18,6 +19,7 @@ export default EstiloGlobal
 export const Container = styled.div`
   max-width: 1024px;
   width: 100%;
+  box-sizing: border-box;
   margin: 0 auto;
 
   @media (max-width: 768px) {

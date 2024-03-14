@@ -19,11 +19,12 @@ export const Form = styled.form`
     content: '';
     opacity: 0.7;
   }
+
   div {
     position: relative;
     color: ${(props) => props.theme.CorTextoHero};
     font-family: Gloock, serif;
-    font-size: 48px;
+    font-size: 28px;
   }
 
   @media (max-width: 768px) {
@@ -35,3 +36,9 @@ export const Form = styled.form`
     }
   }
 `
+
+const meuTitle = styled.h2`
+  font-family: Gloock, serif;
+  font-size: 48px;
+`
+export default meuTitle

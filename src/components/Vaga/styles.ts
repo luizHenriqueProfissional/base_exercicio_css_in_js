@@ -18,6 +18,10 @@ export const VagasAnuncio = styled.li`
       color: ${(props) => props.theme.corPrincipal};
     }
   }
+
+  li {
+    list-style: none;
+  }
 `
 export const TitleAnuncioDaVaga = styled.h3`
   font-weight: bold;
