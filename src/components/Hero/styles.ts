@@ -37,8 +37,7 @@ export const Form = styled.form`
   }
 `
 
-const meuTitle = styled.h2`
+export const H2Title = styled.h2`
   font-family: Gloock, serif;
   font-size: 48px;
 `
-export default meuTitle
