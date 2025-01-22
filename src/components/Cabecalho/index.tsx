@@ -1,10 +1,9 @@
-import React from 'react'
-import { CabecalhoStyled } from './Cabecalho'
+import { StyleHeader } from './styles'
 
 const Cabecalho = () => (
-  <CabecalhoStyled>
+  <StyleHeader>
     <h1>EBAC Jobs</h1>
-  </CabecalhoStyled>
+  </StyleHeader>
 )
 
 export default Cabecalho
